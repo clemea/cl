@@ -19,6 +19,9 @@ module.exports = {
     __dangerouslyDisableSanitizers: ["script"]
   },
   mode: "spa",
+  router: {
+    mode: 'hash'
+  },
   /*
    ** Customize the progress bar color
    */
