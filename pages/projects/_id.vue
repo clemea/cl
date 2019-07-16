@@ -104,7 +104,9 @@ export default {
 	color: #fff;
 	text-decoration: underline;
 	font-size: 14px;
-	align-self: flex-end;
+	/* align-self: flex-end; */
+	position: absolute;
+    top: 10px;
 }
 .gallery {
 	padding-top: 20px;

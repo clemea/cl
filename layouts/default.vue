@@ -1,8 +1,20 @@
 <template>
 	<div>
+		<GitHubLink />
 		<nuxt />
 	</div>
 </template>
+<script>
+import GitHubLink from "~/components/GitHubLink.vue";
+export default {
+	data() {
+		return {};
+	},
+	components: {
+		GitHubLink
+	}
+};
+</script>
 
 <style>
 html {
