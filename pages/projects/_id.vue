@@ -81,14 +81,12 @@ export default {
 	font-size: 30px;
 	margin: 0 0 10px;
 
-	/* color: #000; */
 	color: #fff;
 	letter-spacing: 1px;
 }
 .link {
 	display: inline-block;
 	color: #fff;
-	/* background: #ced790; */
 	background: rgba(61, 201, 179, 0.7);
 	padding: 10px 30px;
 	color: #000;
@@ -104,7 +102,6 @@ export default {
 	color: #fff;
 	text-decoration: underline;
 	font-size: 14px;
-	/* align-self: flex-end; */
 	position: absolute;
     top: 10px;
 }
